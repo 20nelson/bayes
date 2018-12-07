@@ -6,7 +6,6 @@ import kotlin.math.roundToInt
 
 lateinit var nbc: NaiveBayesClassifier<String, String>
 fun main(){
-//coxBFPyK9XSvIEJFtneXpFv9jIZ37MfTMoQtzaweu2yrnXA18nAzOuMzsA8AEp8D
 
     val matches = arrayListOf<Match>()
     val f = File("matches.csv")
